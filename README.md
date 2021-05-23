@@ -3,4 +3,4 @@ Hey! Welcome to the GitHub Repository for my personal website. You can use this 
 For the Spotify & Discord features to work, you must join the Lanyard server on Discord. Click [here](https://discord.gg/7awUJEfJ5c) to join.
 You will also need to add your user ID in assets/backend/lanyard.js for the script to work.
 
-Thank you to @UpbeatBenne for his CORS-anywhere proxy that allows the connection to work in the first place.
+Thank you to [@UpBeatBenne](https://github.com/UpBeatBenne) for his CORS-anywhere proxy that allows the connection to work in the first place.
