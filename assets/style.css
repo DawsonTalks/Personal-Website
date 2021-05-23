@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+
+.background {
+    background: url(background.jpg) no-repeat center center fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    filter: brightness(0.2);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    font-size: 40px;
+}
+
+.spotify {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.spotify i {
+    padding-right: 6px;
+}
+
+.github {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.github i {
+    padding-right: 6px;
+}
+
+.discord {
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+.discord i {
+    padding-right: 6px;
+}
+
+.bio {
+    margin-top: 20px;
+}
+
+.link {
+    color: white;
+    outline: none;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.6s;
+}
+
+.link:hover {
+    transition: 0.6s;
+    text-decoration: underline;
+}
