@@ -1,1 +1,1 @@
-"# Personal-Website" 
+Hey! Welcome to the GitHub Repository for my personal website. You can use this code as much as you like, I just request that my credits are left in the code. If you need any help with this site, please contact me on Discord at JackD#7172.
