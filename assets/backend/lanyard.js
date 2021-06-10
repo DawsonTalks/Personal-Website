@@ -5,10 +5,10 @@ async function updateLanyard() {
     $('#status').text(data.status)
     $('#name').text(data.username)
 
-    if (data.is_listening === false) {
+    if (!data.is_listening) {
         $('.spotify').attr('style', 'display: none;')
         $('.discord').attr('style', 'margin-top: 20px;')
-    } else if (data.is_listening === true) {
+    } else {
         $('#song').text(`${data.song}`)
         $('.spotify').attr('style', 'display: visible;')
         $('.discord').attr('style', '')
